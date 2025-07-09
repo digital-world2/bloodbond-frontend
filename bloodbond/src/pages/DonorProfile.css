@@ -1,0 +1,61 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+.donor-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.donor-profile {
+  max-width: 500px;
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.donor-profile h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #db343c;
+  margin-bottom: 20px;
+}
+
+.donor-info {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.donor-info p {
+  font-size: 16px;
+  margin: 12px 0;
+  color: #34495e;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  .donor-profile {
+    padding: 30px 20px;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+}
